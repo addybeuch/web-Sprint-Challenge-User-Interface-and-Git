@@ -148,6 +148,7 @@ p {
 
 footer {
     width: 100%;
+    margin-top: 40px;
     background: black;
 }
 
@@ -176,28 +177,39 @@ footer nav a {
 .aboutcontainer{
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 20px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 .contain1{
     border-bottom: dashed black 1px;
+    padding-bottom: 25px;
     width: 45%;
     margin: 2.5%;
 }
 .contain2{
     border-bottom: dashed black 1px;
+    padding-bottom: 25px;
     width: 45%;
     margin: 2.5%;
 }
 .contain3{
     border-bottom: dashed black 1px;
+    padding-bottom: 25px;
     width: 45%;
     margin: 2.5%;
 }
 .contain4{
     border-bottom: dashed black 1px;
+    padding-bottom: 25px;
     width: 45%;
     margin: 2.5%;
 }
+.aboutcontainer a{
+    border: solid black 2px;
+    border-radius: 7px;
+    padding: 5px;
+    text-decoration: none
+}
+

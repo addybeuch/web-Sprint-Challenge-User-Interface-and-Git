@@ -55,7 +55,27 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+.headerflex{
+    display: flex;
+    justify-content: center;
+    
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 2%;
+    font-size: 14px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    padding-right: 5%;
+    padding-top: 15px;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -143,4 +163,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about{
+    border-bottom: dashed black 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.containabout{
+    width: 800px;
+    margin: 0 auto;
+}
+.aboutcontainer{
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contain1{
+    border-bottom: dashed black 1px;
+    width: 45%;
+    margin: 2.5%;
+}
+.contain2{
+    border-bottom: dashed black 1px;
+    width: 45%;
+    margin: 2.5%;
+}
+.contain3{
+    border-bottom: dashed black 1px;
+    width: 45%;
+    margin: 2.5%;
+}
+.contain4{
+    border-bottom: dashed black 1px;
+    width: 45%;
+    margin: 2.5%;
 }
